@@ -9,7 +9,7 @@ Project is created using:
 
 ## **_Screenshot_**
 
-![Portfolio screenshot](img\Portfolio-screenshot.png)
+<img src="img/Portfolio-screenshot.png">
 ## **_Link to deployed URL_**
 
 https://dannyyyspam.github.io/Portfolio/
