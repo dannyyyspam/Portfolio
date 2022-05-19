@@ -10,6 +10,7 @@ Project is created using:
 ## **_Screenshot_**
 
 <img src="img/Portfolio-screenshot.png">
+
 ## **_Link to deployed URL_**
 
 https://dannyyyspam.github.io/Portfolio/
