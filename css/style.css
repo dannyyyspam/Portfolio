@@ -28,11 +28,6 @@ nav{
 	padding-left: 8%;
 	padding-right: 8%;
 }
-@media (max-width: 768px){
-	nav{
-		flex-direction: column;
-	}
-}
 .logo{
 	color: var(--secondary-color);
 	font-size: 35px;
@@ -117,21 +112,14 @@ h4{
 	top: 6px;
 	right: 6px; 
 }
-
 .about{
 	width: 100%;
 	padding: 100px 0px;
 	background-color: var(--background-2);
 }
-
 .about img{
 	height: auto;
 	width: 430px;
-}
-@media (max-width: 768px){
-	.about img{
-		width: 250px;
-	}
 }
 .about-text{
 	width: 550px;
@@ -145,11 +133,6 @@ h4{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-}
-@media (min-width: 768px){
-	.main{
-		flex-direction: row;
-	}
 }
 .about-text h2{
 	color: var(--secondary-color);
@@ -168,7 +151,7 @@ h4{
 	color: var(--tertiary-color);
 	letter-spacing: 1px;
 	line-height: 28px;
-	font-size: 18px;
+	font-size: 10px;
 	margin-bottom: 45px;
 }
 button{
@@ -186,18 +169,15 @@ button:hover{
 	border: 2px solid var(--primary-color);
 	cursor: pointer;
 }
-
 .skills{
 	background: var(--background-1);
 	width: 100%;
 	padding: 100px 0px;
 }
-
 .skills .box{
 	min-height: 400px;
 	justify-content: center;
 }
-
 .title h2{
 	color: var(--secondary-color);
 	font-size: 75px;
@@ -208,11 +188,6 @@ button:hover{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-}
-@media (min-width: 768px){
-	.box{
-		flex-direction: row;
-	}
 }
 .card{
 	height: 365px;
@@ -298,19 +273,6 @@ h5{
 	display: flex;
 	flex-direction: column;
 }
-
-@media (min-width: 768px) {
-	.project-content{
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
-
-	.project-content .box {
-		flex: 0 0 33.333333%;
-		flex-basis: calc(33.333333% - 30px);
-	}
-}
-
 .project-content .box{
 	position: relative;
 	cursor: pointer;
@@ -461,4 +423,40 @@ footer p:nth-child(2){
 	color:var(--primary-color);
 	bottom: 35px;
 	font-size: 14px; 
+}
+@media (max-width: 768px){
+	nav{
+		flex-direction: column;
+	}
+}
+@media (max-width: 768px){
+	.about img{
+		width: 250px;
+	}
+}
+@media (min-width: 768px){
+	.main{
+		flex-direction: row;
+	}
+}
+@media (min-width: 768px){
+	.box{
+		flex-direction: row;
+	}
+}
+@media (min-width: 768px) {
+	.project-content{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.project-content .box {
+		flex: 0 0 33.333333%;
+		flex-basis: calc(33.333333% - 30px);
+	}
+}
+@media (min-width: 550px){
+	.about-text p{
+		font-size: 18px;
+	}
 }
